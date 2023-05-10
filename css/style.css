@@ -127,3 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* ADATTAMENTO PER SCHERMI GRANDI AL MASSIMO 768px */
+ @media screen and (max-width: 768px) {
+    
+    .container{
+        width: 768px;
+    }
+
+ }
