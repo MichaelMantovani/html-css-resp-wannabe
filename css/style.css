@@ -148,7 +148,7 @@ img {
  @media screen and (max-width: 480px) {
     
     .container{
-        max-width: 385px;
+        width: 100%;
     }
 
     .lessons{
@@ -163,6 +163,8 @@ img {
 
     .row{
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
 
