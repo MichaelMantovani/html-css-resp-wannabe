@@ -128,11 +128,48 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* ADATTAMENTO PER SCHERMI GRANDI AL MASSIMO 768px */
+
+
+ /* RESPONSIVE PER SCHERMI GRANDI AL MASSIMO 768px */
+
  @media screen and (max-width: 768px) {
     
     .container{
         width: 768px;
     }
 
+ }
+
+
+
+ /* RESPONSIVE PER SCHERMI GRANDI AL MASSIMO 480px */
+
+
+ @media screen and (max-width: 480px) {
+    
+    .container{
+        max-width: 385px;
+    }
+
+    .lessons{
+        width: 100%;
+    }
+
+
+    .steps{
+            margin: 0;
+    }
+
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+
+    .col{
+        flex-basis: 100%;
+        margin-bottom: 60px;
+    }
+
+    
  }
