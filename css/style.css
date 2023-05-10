@@ -130,12 +130,24 @@ img {
 
 
 
- /* RESPONSIVE PER SCHERMI GRANDI AL MASSIMO 768px */
+ /* RESPONSIVE PER SCHERMI GRANDI AL MASSIMO 1140px */
 
+ /* Oppure potevo modificare il container scrivendo max-width invece che width */
+@media screen and (max-width: 1140px) {
+    
+    .row {
+        max-width: calc(100vw - 40px);
+    }
+
+} 
+ 
+ 
+  /* RESPONSIVE PER SCHERMI GRANDI AL MASSIMO 768px */
+ 
  @media screen and (max-width: 768px) {
     
     .container{
-        width: 768px;
+        max-width: 768px;
     }
 
  }
@@ -148,7 +160,7 @@ img {
  @media screen and (max-width: 480px) {
     
     .container{
-        width: 100%;
+        max-width: 100%;
     }
 
     .lessons{
@@ -175,3 +187,9 @@ img {
 
     
  }
+
+
+
+
+
+
